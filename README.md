@@ -6,7 +6,7 @@ Since the dataset is huge, all the data is stored in shared google drive. Link i
 <br>
 
 #### Notebooks
-1. [yelp-pipeline.ipynb](cmpe297-Group3/yelp_pipeline.ipynb) : Entire data pipeline implementation except dataset preparation and model building
+1. [yelp-pipeline.ipynb](yelp_pipeline.ipynb) : Entire data pipeline implementation except dataset preparation and model building
 2. yelp-Dataset-Preparation.py : A part of huge 8GB data was selected and divided uniformly into         training and testing dataset to fit it in 512MB of MongoDB.
 3. yelp-lstm-model.ipynb : Training, validation and evaluation of the LSTM model.
 4. yelp-lr-rf-dt-models.ipynb : Training, validation and evaluation of Logistic regression, Random forest, Decision trees models.
